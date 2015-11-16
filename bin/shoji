@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var shoji = require("../server.js");
+var argv = require('minimist')(process.argv.slice(2));
+
+var target = argv._[0];
+
+if(target === undefined){
+	console.log("USAGE: shoji file.json\n");
+	return;
+}
+
+shoji.run(target);
