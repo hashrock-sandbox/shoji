@@ -34,4 +34,3 @@ node_modules
 .node_repl_history
 
 data.json
-client/bundle.js
