@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch:js": "watchify src/index.js -p browserify-hmr -t vueify -o client/bundle.js -dv",
-    "postinstall": "browserify src/index.js vueify -o client/bundle.js"
+    "watch:js": "watchify src/index.js -p browserify-hmr -t vueify -o client/bundle.js -dv"
   },
   "author": "hashrock",
   "license": "ISC",
